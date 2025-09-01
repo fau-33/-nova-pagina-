@@ -1,11 +1,9 @@
-import Topo from "@/componentes/Topo";
 import estilos from "./page.module.css";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className={estilos.main}>
-      <Topo />
       <div className={estilos.card_container}>
         <h1>Página Inicial</h1>
         <p>Essa é a página principal da aplicação React.</p>
